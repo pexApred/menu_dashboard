@@ -8,7 +8,7 @@ CORS(app)
 def index():
     return 'Index Page'
 
-@app.route('/hello')
+@app.route('/dashboard')
 def hello():
     return 'Hello, World'
 
