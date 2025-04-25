@@ -26,7 +26,7 @@ class MenuItem(db.Model):
 class MenuItemPerformance(db.Model):
     __tablename__ = 'menu_item_performance'
     id = db.Column(db.Integer, primary_key=True)
-    item_id = db.Column(db.integer, db.ForeignKey('menu_items.id'), nullable=False)
+    item_id = db.Column(db.Integer, db.ForeignKey('menu_items.id'), nullable=False)
     qty_sold = db.Column(db.Float)
     avg_price = db.Column(db.Float)
     base_price = db.Column(db.Float)
