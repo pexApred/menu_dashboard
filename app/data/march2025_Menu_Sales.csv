@@ -1,0 +1,204 @@
+Type,Menu,Menu group,"Item, open item",Size modifier,"Modifiers, special requests",Sales Category,Item tags,Deferred,Qty sold,Avg. price,Avg. item price (not incl. mods),Gross sales,Discount amount,Refund amount,Void amount,Net sales,Tax,Waste count,Waste amount
+"",All Day Menu,,,,,,,,5293.0,10.19,,53929.12,0.0,9.75,328.33,53919.37,5386.75,0.0,0.0
+"",All Day Menu,Starters,,,,,,,217.0,8.76,,1901.25,0.0,0.0,27.65,1901.25,190.70,0.0,0.0
+menuItem,All Day Menu,Starters,Toasted Ravioli,,,Food,[],false,25.0,9.95,9.95,248.75,0.0,0.0,0.0,248.75,25.0,0.0,0.0
+menuItem,All Day Menu,Starters,Toasted Ravioli,,,Starters,[],false,32.0,9.95,9.95,318.4,0.0,0.0,0.0,318.4,31.99,0.0,0.0
+menuItem,All Day Menu,Starters,Mushroom Bites,,,Food,[],false,20.0,7.75,7.75,155.0,0.0,0.0,7.75,155.0,15.6,0.0,0.0
+menuItem,All Day Menu,Starters,Mushroom Bites,,,Starters,[],false,39.0,7.75,7.75,302.25,0.0,0.0,0.0,302.25,30.42,0.0,0.0
+menuItem,All Day Menu,Starters,Garlic Cheese Curds,,,Food,[],false,22.0,7.25,7.25,159.5,0.0,0.0,0.0,159.5,15.84,0.0,0.0
+menuItem,All Day Menu,Starters,Garlic Cheese Curds,,,Starters,[],false,26.0,7.25,7.25,188.5,0.0,0.0,0.0,188.5,18.72,0.0,0.0
+menuItem,All Day Menu,Starters,Bacon Cheese Fries,,,Food,[],false,18.0,9.95,9.95,179.1,0.0,0.0,9.95,179.1,17.99,0.0,0.0
+menuItem,All Day Menu,Starters,Bacon Cheese Fries,,,Starters,[],false,35.0,9.99,9.95,349.75,0.0,0.0,9.95,349.75,35.14,0.0,0.0
+"",All Day Menu,Salads,,,,,,,795.0,11.32,,9002.25,0.0,0.0,32.5,9002.25,900.98,0.0,0.0
+menuItem,All Day Menu,Salads,Garden Salad,,,Food,[],false,7.0,7.46,6.75,52.25,0.0,0.0,0.0,52.25,5.26,0.0,0.0
+menuItem,All Day Menu,Salads,Garden Salad,,,Salads,[],false,22.0,7.40,6.75,162.75,0.0,0.0,0.0,162.75,16.34,0.0,0.0
+menuItem,All Day Menu,Salads,Grilled Chicken Salad,,,Food,[],false,22.0,10.05,9.75,221.0,0.0,0.0,0.0,221.0,22.2,0.0,0.0
+menuItem,All Day Menu,Salads,Grilled Chicken Salad,,,Salads,[],false,37.0,10.29,9.75,380.75,0.0,0.0,0.0,380.75,38.22,0.0,0.0
+menuItem,All Day Menu,Salads,Chef Salad,,,Food,[],false,115.0,11.10,10.50,1277.0,0.0,0.0,0.0,1277.0,127.1,0.0,0.0
+menuItem,All Day Menu,Salads,Chef Salad,,,Salads,[],false,132.0,10.81,10.50,1426.5,0.0,0.0,21.0,1426.5,141.58,0.0,0.0
+menuItem,All Day Menu,Salads,Greek Salad,,,Food,[],false,13.0,10.75,10.50,139.75,0.0,0.0,0.0,139.75,13.9,0.0,0.0
+menuItem,All Day Menu,Salads,Greek Salad,,,Salads,[],false,28.0,10.87,10.50,304.25,0.0,0.0,0.0,304.25,30.2,0.0,0.0
+menuItem,All Day Menu,Salads,Mediterranean Chicken Salad,,,Food,[],false,88.0,11.80,11.50,1038.75,0.0,0.0,0.0,1038.75,104.48,0.0,0.0
+menuItem,All Day Menu,Salads,Mediterranean Chicken Salad,,,Salads,[],false,105.0,11.87,11.50,1246.75,0.0,0.0,11.5,1246.75,125.34,0.0,0.0
+menuItem,All Day Menu,Salads,Steak Salad,,,Food,[],false,46.0,12.14,11.50,558.25,0.0,0.0,0.0,558.25,56.12,0.0,0.0
+menuItem,All Day Menu,Salads,Steak Salad,,,Salads,[],false,68.0,11.94,11.50,811.75,0.0,0.0,0.0,811.75,81.68,0.0,0.0
+menuItem,All Day Menu,Salads,Crispy Chicken Salad,,,Food,[],false,50.0,12.01,11.50,600.5,0.0,0.0,0.0,600.5,60.28,0.0,0.0
+menuItem,All Day Menu,Salads,Crispy Chicken Salad,,,Salads,[],false,48.0,11.84,11.50,568.5,0.0,0.0,0.0,568.5,57.0,0.0,0.0
+menuItem,All Day Menu,Salads,Marko Salad,,,Food,[],false,6.0,15.25,15.25,91.5,0.0,0.0,0.0,91.5,9.12,0.0,0.0
+menuItem,All Day Menu,Salads,Marko Salad,,,Salads,[],false,8.0,15.25,15.25,122.0,0.0,0.0,0.0,122.0,12.16,0.0,0.0
+"",All Day Menu,Pizza Specials,,,,,,,191.0,19.33,,3691.84,0.0,0.0,36.98,3691.84,367.79,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,House Pizza,,,Food,[],false,24.0,20.56,0.00,493.51,0.0,0.0,0.0,493.51,49.21,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,House Pizza,,,Pizza Specials,[],false,56.0,20.12,0.00,1126.44,0.0,0.0,18.49,1126.44,112.3,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Meat Pizza,,,Food,[],false,20.0,19.30,0.00,386.05,0.0,0.0,0.0,386.05,38.45,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Meat Pizza,,,Pizza Specials,[],false,25.0,19.92,0.00,498.0,0.0,0.0,18.49,498.0,49.65,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Veggie Pizza,,,Food,[],false,1.0,18.49,0.00,18.49,0.0,0.0,0.0,18.49,1.84,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Veggie Pizza,,,Pizza Specials,[],false,7.0,17.10,0.00,119.68,0.0,0.0,0.0,119.68,11.91,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Buffalo Chicken Pizza,,,Food,[],false,16.0,18.69,0.00,299.09,0.0,0.0,0.0,299.09,29.77,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Buffalo Chicken Pizza,,,Pizza Specials,[],false,18.0,16.87,0.00,303.57,0.0,0.0,0.0,303.57,30.17,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Spicy Hawaiian Pizza,,,Food,[],false,2.0,20.12,0.00,40.23,0.0,0.0,0.0,40.23,4.01,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Spicy Hawaiian Pizza,,,Pizza Specials,[],false,2.0,15.24,0.00,30.48,0.0,0.0,0.0,30.48,3.02,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Great White Pizza,,,Food,[],false,8.0,21.33,0.00,170.67,0.0,0.0,0.0,170.67,17.03,0.0,0.0
+menuItem,All Day Menu,Pizza Specials,Great White Pizza,,,Pizza Specials,[],false,12.0,17.14,0.00,205.63,0.0,0.0,0.0,205.63,20.43,0.0,0.0
+"",All Day Menu,Create Your Own Pizza,,,,,,,432.0,14.24,,6153.18,0.0,0.0,75.95,6153.18,613.72,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Small (10"") Cheese",,,CYO Pizza,[],false,80.0,10.80,8.99,864.2,0.0,0.0,0.0,864.2,85.7,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Small (10"") Cheese",,,Food,[],false,72.0,10.73,8.99,772.28,0.0,0.0,0.0,772.28,76.54,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Medium (12"") Cheese",,,CYO Pizza,[],false,69.0,12.90,10.99,890.31,0.0,0.0,12.49,890.31,88.82,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Medium (12"") Cheese",,,Food,[],false,54.0,13.76,10.99,742.96,0.0,0.0,12.49,742.96,74.16,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Large (16"") Cheese",,,CYO Pizza,[],false,101.0,18.20,14.99,1837.99,0.0,0.0,16.99,1837.99,183.9,0.0,0.0
+menuItem,All Day Menu,Create Your Own Pizza,"Large (16"") Cheese",,,Food,[],false,56.0,18.67,14.99,1045.44,0.0,0.0,33.98,1045.44,104.6,0.0,0.0
+"",All Day Menu,Calzone,,,,,,,101.0,13.23,,1335.95,0.0,0.0,0.0,1335.95,134.05,0.0,0.0
+menuItem,All Day Menu,Calzone,Calzone,,,CYO Pizza,[],false,67.0,13.22,12.95,885.65,0.0,0.0,0.0,885.65,88.85,0.0,0.0
+menuItem,All Day Menu,Calzone,Calzone,,,Food,[],false,34.0,13.24,12.95,450.3,0.0,0.0,0.0,450.3,45.2,0.0,0.0
+"",All Day Menu,Oven-Baked Subs,,,,,,,1243.0,11.65,,14484.25,0.0,9.75,84.00,14474.50,1443.82,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Super Sub,,,Food,[],false,250.0,11.41,0.00,2852.0,0.0,0.0,38.5,2852.0,284.74,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Super Sub,,,Oven-Baked Subs,[],false,271.0,11.52,0.00,3121.75,0.0,0.0,22.25,3121.75,311.44,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Steak Deluxe Sub,,,Food,[],false,264.0,11.86,-0.04,3131.5,0.0,9.75,13.0,3121.75,311.3,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Steak Deluxe Sub,,,Oven-Baked Subs,[],false,343.0,11.79,0.00,4045.5,0.0,0.0,10.25,4045.5,403.36,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Italian Sub,,,Food,[],false,43.0,11.19,0.00,481.25,0.0,0.0,0.0,481.25,48.08,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Italian Sub,,,Oven-Baked Subs,[],false,53.0,11.67,0.00,618.5,0.0,0.0,0.0,618.5,61.66,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Parm Sub,,,Food,[],false,9.0,11.83,0.00,106.5,0.0,0.0,0.0,106.5,10.6,0.0,0.0
+menuItem,All Day Menu,Oven-Baked Subs,Parm Sub,,,Oven-Baked Subs,[],false,10.0,12.73,0.00,127.25,0.0,0.0,0.0,127.25,12.64,0.0,0.0
+"",All Day Menu,Pita Wraps,,,,,,,406.0,11.37,,4616.55,0.0,0.0,0.0,4616.55,461.70,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Steak Deluxe Wrap,,,Food,[],false,39.0,10.58,10.50,412.5,0.0,0.0,0.0,412.5,40.96,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Steak Deluxe Wrap,,,Pita Wraps,[],false,58.0,10.52,10.50,610.0,0.0,0.0,0.0,610.0,60.46,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Grilled Chicken Wrap,,,Food,[],false,31.0,10.27,9.95,318.45,0.0,0.0,0.0,318.45,31.89,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Grilled Chicken Wrap,,,Pita Wraps,[],false,45.0,10.13,9.95,456.0,0.0,0.0,0.0,456.0,45.69,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Crispy Chicken Wrap,,,Food,[],false,93.0,12.11,11.95,1126.1,0.0,0.0,0.0,1126.1,112.89,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Crispy Chicken Wrap,,,Pita Wraps,[],false,68.0,12.11,11.95,823.6,0.0,0.0,0.0,823.6,82.55,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Mediterranean Wrap,,,Food,[],false,26.0,11.97,11.95,311.2,0.0,0.0,0.0,311.2,31.23,0.0,0.0
+menuItem,All Day Menu,Pita Wraps,Mediterranean Wrap,,,Pita Wraps,[],false,46.0,12.15,11.95,558.7,0.0,0.0,0.0,558.7,56.03,0.0,0.0
+"",All Day Menu,Burgers & Sandwiches,,,,,,,207.0,11.00,,2276.75,0.0,0.0,11.75,2276.75,227.74,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Cheeseburger,,,Burgers & Sandwiches,[],false,94.0,10.76,10.25,1011.5,0.0,0.0,11.75,1011.5,100.98,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Cheeseburger,,,Food,[],false,46.0,11.04,10.25,508.0,0.0,0.0,0.0,508.0,50.72,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Grilled Chicken Sandwich,,,Burgers & Sandwiches,[],false,21.0,10.37,9.75,217.75,0.0,0.0,0.0,217.75,21.86,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Grilled Chicken Sandwich,,,Food,[],false,2.0,9.75,9.75,19.5,0.0,0.0,0.0,19.5,1.96,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Crispy Chicken Sandwich,,,Burgers & Sandwiches,[],false,15.0,11.82,11.75,177.25,0.0,0.0,0.0,177.25,17.8,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Crispy Chicken Sandwich,,,Food,[],false,16.0,11.88,11.75,190.0,0.0,0.0,0.0,190.0,19.08,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Mediterranean Chicken Sandwich,,,Burgers & Sandwiches,[],false,7.0,11.75,11.75,82.25,0.0,0.0,0.0,82.25,8.26,0.0,0.0
+menuItem,All Day Menu,Burgers & Sandwiches,Mediterranean Chicken Sandwich,,,Food,[],false,6.0,11.75,11.75,70.5,0.0,0.0,0.0,70.5,7.08,0.0,0.0
+"",All Day Menu,Pastas,,,,,,,341.0,13.48,,4597.75,0.0,0.0,29.0,4597.75,458.44,0.0,0.0
+menuItem,All Day Menu,Pastas,Stelio's Spaghetti,,,Food,[],false,26.0,11.46,9.50,298.0,0.0,0.0,0.0,298.0,29.82,0.0,0.0
+menuItem,All Day Menu,Pastas,Stelio's Spaghetti,,,Pastas,[],false,35.0,10.61,9.50,371.5,0.0,0.0,0.0,371.5,37.22,0.0,0.0
+menuItem,All Day Menu,Pastas,Baked Spaghetti,,,Food,[],false,30.0,15.23,14.50,456.75,0.0,0.0,0.0,456.75,45.46,0.0,0.0
+menuItem,All Day Menu,Pastas,Baked Spaghetti,,,Pastas,[],false,42.0,14.90,14.50,626.0,0.0,0.0,0.0,626.0,62.26,0.0,0.0
+menuItem,All Day Menu,Pastas,Chicken Fettuccine,,,Food,[],false,48.0,12.82,12.50,615.5,0.0,0.0,0.0,615.5,61.3,0.0,0.0
+menuItem,All Day Menu,Pastas,Chicken Fettuccine,,,Pastas,[],false,72.0,12.67,12.50,912.0,0.0,0.0,0.0,912.0,90.7,0.0,0.0
+menuItem,All Day Menu,Pastas,Baked Fettuccine,,,Food,[],false,23.0,14.63,14.50,336.5,0.0,0.0,0.0,336.5,33.48,0.0,0.0
+menuItem,All Day Menu,Pastas,Baked Fettuccine,,,Pastas,[],false,31.0,14.59,14.50,452.25,0.0,0.0,29.0,452.25,45.0,0.0,0.0
+menuItem,All Day Menu,Pastas,Chicken Parmesan,,,Food,[],false,14.0,15.57,15.50,218.0,0.0,0.0,0.0,218.0,21.9,0.0,0.0
+menuItem,All Day Menu,Pastas,Chicken Parmesan,,,Pastas,[],false,20.0,15.56,15.50,311.25,0.0,0.0,0.0,311.25,31.3,0.0,0.0
+"",All Day Menu,Wings & Tenders,,,,,,,395.0,9.58,,3783.1,0.0,0.0,28.5,3783.1,381.35,0.0,0.0
+menuItem,All Day Menu,Wings & Tenders,Bone-In Wings,,,Food,[],false,131.0,9.50,9.50,1244.5,0.0,0.0,0.0,1244.5,125.54,0.0,0.0
+menuItem,All Day Menu,Wings & Tenders,Bone-In Wings,,,Wings & Tenders,[],false,196.0,9.50,9.50,1862.0,0.0,0.0,28.5,1862.0,187.88,0.0,0.0
+menuItem,All Day Menu,Wings & Tenders,Chicken Tender Basket,,,Food,[],false,30.0,9.95,9.95,298.5,0.0,0.0,0.0,298.5,29.98,0.0,0.0
+menuItem,All Day Menu,Wings & Tenders,Chicken Tender Basket,,,Wings & Tenders,[],false,38.0,9.95,9.95,378.1,0.0,0.0,0.0,378.1,37.95,0.0,0.0
+"",All Day Menu,Kid's Menu,,,,,,,139.0,6.66,,926.25,0.0,0.0,0.0,926.25,91.94,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Cheeseburger,,,Food,[],false,5.0,7.50,6.50,37.5,0.0,0.0,0.0,37.5,3.8,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Cheeseburger,,,Kid's Menu,[],false,6.0,7.33,6.50,44.0,0.0,0.0,0.0,44.0,4.44,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Chicken Tenders,,,Food,[],false,9.0,7.28,6.50,65.5,0.0,0.0,0.0,65.5,6.56,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Chicken Tenders,,,Kid's Menu,[],false,14.0,7.14,6.50,100.0,0.0,0.0,0.0,100.0,10.08,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Pizza,,,Food,[],false,25.0,6.50,6.50,162.5,0.0,0.0,0.0,162.5,16.06,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Pizza,,,Kid's Menu,[],false,37.0,6.50,6.50,240.5,0.0,0.0,0.0,240.5,23.74,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Spaghetti with Meat sauce,,,Food,[],false,16.0,6.75,6.50,108.0,0.0,0.0,0.0,108.0,10.66,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Spaghetti with Meat sauce,,,Kid's Menu,[],false,24.0,6.67,6.50,160.0,0.0,0.0,0.0,160.0,15.76,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Fries,,,Food,[],false,1.0,2.75,2.75,2.75,0.0,0.0,0.0,2.75,0.28,0.0,0.0
+menuItem,All Day Menu,Kid's Menu,Kids Fries,,,Kid's Menu,[],false,2.0,2.75,2.75,5.5,0.0,0.0,0.0,5.5,0.56,0.0,0.0
+"",All Day Menu,Sides,,,,,,,177.0,3.84,,679.75,0.0,0.0,0.0,679.75,68.84,0.0,0.0
+menuItem,All Day Menu,Sides,Straight-cut fries,,,Food,[],false,30.0,3.75,3.75,112.5,0.0,0.0,0.0,112.5,11.4,0.0,0.0
+menuItem,All Day Menu,Sides,Straight-cut fries,,,Sides,[],false,29.0,3.75,3.75,108.75,0.0,0.0,0.0,108.75,11.02,0.0,0.0
+menuItem,All Day Menu,Sides,Side Garden Salad,,,Food,[],false,45.0,3.93,3.75,176.75,0.0,0.0,0.0,176.75,17.9,0.0,0.0
+menuItem,All Day Menu,Sides,Side Garden Salad,,,Sides,[],false,49.0,3.91,3.75,191.75,0.0,0.0,0.0,191.75,19.4,0.0,0.0
+menuItem,All Day Menu,Sides,Side Mediterranean Salad,,,Food,[],false,10.0,3.75,3.75,37.5,0.0,0.0,0.0,37.5,3.8,0.0,0.0
+menuItem,All Day Menu,Sides,Side Mediterranean Salad,,,Sides,[],false,14.0,3.75,3.75,52.5,0.0,0.0,0.0,52.5,5.32,0.0,0.0
+"",All Day Menu,Extras,,,,,,,649.0,0.74,,480.25,0.0,0.0,2.0,480.25,45.68,0.0,0.0
+menuItem,All Day Menu,Extras,Dressings (2oz),,,Extras,[],false,250.0,0.68,0.00,169.5,0.0,0.0,0.5,169.5,15.86,0.0,0.0
+menuItem,All Day Menu,Extras,Dressings (2oz),,,Food,[],false,211.0,0.64,0.00,134.0,0.0,0.0,1.5,134.0,12.32,0.0,0.0
+menuItem,All Day Menu,Extras,Sauces (2oz),,,Extras,[],false,27.0,1.15,0.00,31.0,0.0,0.0,0.0,31.0,3.1,0.0,0.0
+menuItem,All Day Menu,Extras,Sauces (2oz),,,Food,[],false,25.0,1.12,0.00,28.0,0.0,0.0,0.0,28.0,2.8,0.0,0.0
+menuItem,All Day Menu,Extras,Extra Pickle Spear,,,Extras,[],false,53.0,0.25,0.25,13.25,0.0,0.0,0.0,13.25,1.26,0.0,0.0
+menuItem,All Day Menu,Extras,Extra Pickle Spear,,,Food,[],false,33.0,0.25,0.25,8.25,0.0,0.0,0.0,8.25,0.74,0.0,0.0
+menuItem,All Day Menu,Extras,Side of Pita Bread,,,Extras,[],false,7.0,2.00,2.00,14.0,0.0,0.0,0.0,14.0,1.4,0.0,0.0
+menuItem,All Day Menu,Extras,Side of Pita Bread,,,Food,[],false,9.0,2.00,2.00,18.0,0.0,0.0,0.0,18.0,1.8,0.0,0.0
+menuItem,All Day Menu,Extras,Side of Garlic Bread,,,Extras,[],false,12.0,2.00,2.00,24.0,0.0,0.0,0.0,24.0,2.4,0.0,0.0
+menuItem,All Day Menu,Extras,Side of Garlic Bread,,,Food,[],false,17.0,2.00,2.00,34.0,0.0,0.0,0.0,34.0,3.4,0.0,0.0
+menuItem,All Day Menu,Extras,Cup of Banana Peppers,,,Extras,[],false,1.0,1.25,1.25,1.25,0.0,0.0,0.0,1.25,0.12,0.0,0.0
+menuItem,All Day Menu,Extras,"Cup of Banana Peppers ",,,Food,[],false,2.0,1.25,1.25,2.5,0.0,0.0,0.0,2.5,0.24,0.0,0.0
+menuItem,All Day Menu,Extras,Cup of Jalapeño Peppers,,,Food,[],false,2.0,1.25,1.25,2.5,0.0,0.0,0.0,2.5,0.24,0.0,0.0
+"",Beverage Menu,,,,,,,,948.0,2.03,,1924.5,0.0,0.0,14.0,1924.5,190.22,0.0,0.0
+"",Beverage Menu,Bottled Beverages,,,,,,,226.0,2.58,,582.5,0.0,0.0,10.0,582.5,56.48,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Pepsi,,,Bottled Bev,[],false,58.0,2.50,2.50,145.0,0.0,0.0,5.0,145.0,14.12,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Diet Pepsi,,,Bottled Bev,[],false,30.0,2.50,2.50,75.0,0.0,0.0,0.0,75.0,7.24,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Starry,,,Bottled Bev,[],false,7.0,2.50,2.50,17.5,0.0,0.0,0.0,17.5,1.72,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Mt. Dew,,,Bottled Bev,[],false,9.0,2.50,2.50,22.5,0.0,0.0,0.0,22.5,2.16,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Diet Mt. Dew,,,Bottled Bev,[],false,1.0,2.50,2.50,2.5,0.0,0.0,0.0,2.5,0.24,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Dr. Pepper,,,Bottled Bev,[],false,17.0,2.50,2.50,42.5,0.0,0.0,0.0,42.5,4.14,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Sunkist,,,Bottled Bev,[],false,5.0,2.50,2.50,12.5,0.0,0.0,0.0,12.5,1.2,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Canada Dry,,,Bottled Bev,[],false,10.0,2.50,2.50,25.0,0.0,0.0,0.0,25.0,2.4,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Aquafina,,,Bottled Bev,[],false,3.0,2.50,2.50,7.5,0.0,0.0,0.0,7.5,0.72,0.0,0.0
+menuItem,Beverage Menu,Bottled Beverages,Pepsi Products,,,Bottled Bev,[],false,86.0,2.70,0.00,232.5,0.0,0.0,5.0,232.5,22.54,0.0,0.0
+"",Beverage Menu,Draft Beverages,,,,,,,722.0,1.86,,1342.0,0.0,0.0,4.0,1342.0,133.74,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Sweet Tea,,,Cup Bev,[],false,437.0,2.00,2.00,874.0,0.0,0.0,4.0,874.0,87.4,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Lemonade,,,Cup Bev,[],false,89.0,2.00,2.00,178.0,0.0,0.0,0.0,178.0,17.8,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Unsweetened Tea,,,Cup Bev,[],false,31.0,2.00,2.00,62.0,0.0,0.0,0.0,62.0,6.2,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Tea-Ade (Sweet),,,Cup Bev,[],false,56.0,2.00,2.00,112.0,0.0,0.0,0.0,112.0,11.2,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Tea-Ade (Unsweetened),,,Cup Bev,[],false,3.0,2.00,2.00,6.0,0.0,0.0,0.0,6.0,0.6,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Half & Half Tea,,,Cup Bev,[],false,38.0,2.00,2.00,76.0,0.0,0.0,0.0,76.0,7.6,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Water (Takeout),,,Cup Bev,[],false,60.0,0.50,0.50,30.0,0.0,0.0,0.0,30.0,2.62,0.0,0.0
+menuItem,Beverage Menu,Draft Beverages,Cup of Ice,,,Cup Bev,[],false,8.0,0.50,0.50,4.0,0.0,0.0,0.0,4.0,0.32,0.0,0.0
+"",Lunch Specials,,,,,,,,437.0,10.79,,4713.25,0.0,0.0,52.25,4713.25,469.14,0.0,0.0
+"",Lunch Specials,Lunch Specials,,,,,,,437.0,10.79,,4713.25,0.0,0.0,52.25,4713.25,469.14,0.0,0.0
+menuItem,Lunch Specials,Lunch Specials,"(8"") Personal Pizza Special",,,Food,[],false,203.0,10.25,10.25,2080.75,0.0,0.0,41.0,2080.75,207.06,0.0,0.0
+menuItem,Lunch Specials,Lunch Specials,1/2 Sub & Salad,,,Food,[],false,234.0,11.25,11.25,2632.5,0.0,0.0,11.25,2632.5,262.08,0.0,0.0
+"",Dessert Menu,,,,,,,,82.0,3.44,,281.75,0.0,0.0,0.0,281.75,28.02,0.0,0.0
+"",Dessert Menu,Desserts,,,,,,,82.0,3.44,,281.75,0.0,0.0,0.0,281.75,28.02,0.0,0.0
+menuItem,Dessert Menu,Desserts,New York Style Cheesecake,,,,[],false,12.0,3.75,3.75,45.0,0.0,0.0,0.0,45.0,4.56,0.0,0.0
+menuItem,Dessert Menu,Desserts,Chocolate Layer Cake,,,,[],false,10.0,3.25,3.25,32.5,0.0,0.0,0.0,32.5,3.2,0.0,0.0
+menuItem,Dessert Menu,Desserts,Cookies & Cream Pie,,,,[],false,20.0,3.25,3.25,65.0,0.0,0.0,0.0,65.0,6.42,0.0,0.0
+menuItem,Dessert Menu,Desserts,Pecan Pie,,,,[],false,8.0,3.25,3.25,26.0,0.0,0.0,0.0,26.0,2.56,0.0,0.0
+menuItem,Dessert Menu,Desserts,Assorted Pies & Cheesecake,,,,[],false,32.0,3.54,0.00,113.25,0.0,0.0,0.0,113.25,11.28,0.0,0.0
+"",Open items,,,,,,,,50.0,0.44,,22.00,0.0,0.0,0.0,22.00,0.0,0.0,0.0
+"",Open items,Open Food,,,,,,,50.0,0.44,,22.00,0.0,0.0,0.0,22.00,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Calamata Olives,,,,[],false,1.0,1.00,1.00,1.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Egg,,,,[],false,2.0,3.00,3.00,6.0,0.0,0.0,0.0,6.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Egg And Bacon,,,,[],false,1.0,3.00,3.00,3.0,0.0,0.0,0.0,3.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Grilled Onions Add Japaeno,,,,[],false,1.0,1.25,1.25,1.25,0.0,0.0,0.0,1.25,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Ham,,,,[],false,1.0,2.00,2.00,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Lemon Peper,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Lemon Pepper To Buffalo Wings,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Onions Add Jalapeno,,,,[],false,1.0,1.25,1.25,1.25,0.0,0.0,0.0,1.25,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Seasoning To The Side Order Of Fries,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Add Tzaziki Sauce,,,,[],false,1.0,1.50,1.50,1.5,0.0,0.0,0.0,1.5,0.0,0.0,0.0
+openItem,Open items,Open Food,Bacon Cheese Fries,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Cold,,,,[],false,5.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Crispy,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Crispy On The Wings,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,DOES NOT WANT FRIES,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Crispy On The Wings,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Crispy ∆,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Egg,,,,[],false,1.0,2.00,2.00,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Onions,,,,[],false,1.0,1.50,1.50,1.5,0.0,0.0,0.0,1.5,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Raspberry Vinaigrette,,,,[],false,1.0,0.50,0.50,0.5,0.0,0.0,0.0,0.5,0.0,0.0,0.0
+openItem,Open items,Open Food,Extra Toasted,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Fried Hard,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Fries Fried Hard,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,LIGHT LETTUCE ON BOTH SALADS,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light Cheese,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light Ham On Sub,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light House And Mayo,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light House On Sub,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light Lettuce,,,,[],false,2.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light Mayo,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Light Onions,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Lightly Toasted,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Lite Sause,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Lite Toast,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Lite Tosted,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,NO MEAT ON BOTH SUBS,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,NO MEAT ON SUB,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,"NO MEAT ON THIS STEAK SUB, VEGGIES ONLY",,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,No Meat,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Pizza Togo,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Season,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,Toasted Extra Crispy,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,With Spageti Noodles,,,,[],false,1.0,0.00,0.00,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+openItem,Open items,Open Food,X Cheese,,,,[],false,1.0,2.00,2.00,2.0,0.0,0.0,0.0,2.0,0.0,0.0,0.0
