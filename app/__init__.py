@@ -14,6 +14,8 @@ def create_app():
     from .routes import main
     app.register_blueprint(main)
 
+    register_commands(app)
+
     return app
 
 @click.command('etl')

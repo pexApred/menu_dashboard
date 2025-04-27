@@ -1,15 +1,18 @@
-from pathlib import path
+from pathlib import Path
 import pandas as pd
 from .models import db, Menu, MenuGroup, MenuItem, MenuItemPerformance
 from sqlalchemy.exc import IntegrityError
+from tqdm import tqdm
+import click
+import time
 
 def load_menu_data(file_path=None):
     # Load the CSV file from the specified path or use the default path
     if file_path is not None:
-        file_path = path(file_path)
+        file_path = Path(file_path)
     else:
-        current_dir = path(__file__).parent
-        data_dir = current_dir.parent / "data"
+        current_dir = Path(__file__)
+        data_dir = current_dir.parent.parent / "app/data"
         file_path = data_dir / "march2025_Menu_Sales.csv"
 
     if not file_path.exists():
@@ -22,11 +25,11 @@ def load_menu_data(file_path=None):
     # Rename columns for cleanliness
     df = df.rename(columns={
         'Menu': 'menu_category',
-        'Menu Group': 'menu_group',
+        'Menu group': 'menu_group',
         'Item, open item': 'menu_item',
-        'Sales Category': 'sales_category',
-        'Qty Sold': 'qty_sold',
-        'Avg. Price': 'avg_price',
+        'Sales category': 'sales_category',
+        'Qty sold': 'qty_sold',
+        'Avg. price': 'avg_price',
         'Avg. item price (not incl. mods)': 'base_price',
         'Gross sales': 'gross_sales',
         'Void amount': 'void_amount',
@@ -38,22 +41,22 @@ def load_menu_data(file_path=None):
 
 def performance_metrics(df):
     # Performance metrics available in the dataset
-    df['price'] = df.apply(lambda row: row['avg_price'] if pd.notnull(row['avg_price']) else row['base_price'], axis=1)
+    df['avg_price'] = df.apply(lambda row: row['avg_price'] if pd.notnull(row['avg_price']) else row['base_price'], axis=1)
 
     return df
 
 def assign_quadrant(row, avg_price, avg_qty_sold):
-    if row['price'] >= avg_price and row['qty_sold'] >= avg_qty_sold:
+    if row['avg_price'] >= avg_price and row['qty_sold'] >= avg_qty_sold:
         return 'Star'
-    elif row['price'] < avg_price and row['qty_sold'] >= avg_qty_sold:
+    elif row['avg_price'] < avg_price and row['qty_sold'] >= avg_qty_sold:
         return 'Plowhorse'
-    elif row['price'] >= avg_price and row['qty_sold'] < avg_qty_sold:
+    elif row['avg_price'] >= avg_price and row['qty_sold'] < avg_qty_sold:
         return 'Puzzle'
     else:
         return 'Dog'
     
 def enrich_data(df):
-    avg_price = df['price'].mean()
+    avg_price = df['avg_price'].mean()
     avg_qty_sold = df['qty_sold'].mean()
 
     df['quadrant'] = df.apply(assign_quadrant, axis=1, args=(avg_price, avg_qty_sold))
@@ -63,7 +66,10 @@ def enrich_data(df):
 def load_data_to_db(df):
     print(df.columns)
     # Load data into the database
-    for _, row in df.iterrows():
+    print("Loading data into the database...")
+    start_time = time.time()
+
+    for _, row in tqdm(df.iterrows(), total=len(df), desc="Inserting rows", unit="row"):
         try:
             # Find or create Menu
             menu = Menu.query.filter_by(name=row['menu_category']).first()
@@ -110,4 +116,8 @@ def load_data_to_db(df):
             print(f"IntegrityError, Error with row: {row}")
 
     db.session.commit()
-    print("Data loaded successfully into the database.")
+
+    end_time = time.time() - start_time
+
+    click.secho("✅ Data loaded successfully into the database.", fg='green', bold=True)
+    click.secho(f"⏱️  ETL completed in {end_time:.2f} seconds", fg='cyan', bold=True)
