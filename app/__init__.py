@@ -1,17 +1,25 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask.cli import with_appcontext
+from flask_migrate import Migrate
+from flask_cors import CORS
 import click
-from .models import db
+from .models import db    
+from .routes import main
 from .etl import load_menu_data, performance_metrics, enrich_data, load_data_to_db
+
+migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
 
     app.config.from_object('config.Config')
     db.init_app(app)
+    # Initialize migration folder with the command flask db init
+    # Create flask migration with terminal command flask db migrate -m "Initial migration"
+    # Apply the migration with the command flask db upgrade
+    migrate.init_app(app, db)
 
-    from .routes import main
     app.register_blueprint(main)
 
     register_commands(app)
