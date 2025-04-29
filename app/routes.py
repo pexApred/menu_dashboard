@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, request, jsonify
+from flask import Blueprint, render_template, jsonify
 from .models import db, Menu, MenuGroup, MenuItem, MenuItemPerformance
 
 main = Blueprint('main', __name__)
@@ -7,7 +7,11 @@ main = Blueprint('main', __name__)
 def index():
     return render_template('index.html')
 
-@main.route('/menu-performance')
+@main.route('/dashboard')
+def dashboard():
+    return render_template('dashboard.html')
+
+@main.route('/api/menu-performance')
 def menu_performance():
     results = (
         db.session.query(

@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const response = await fetch("/menu-performance");
+    const response = await fetch("/api/menu-performance");
     const data = await response.json();
 
     const colors = {
@@ -29,10 +29,23 @@ document.addEventListener("DOMContentLoaded", async () => {
         })
     };
 
+    document.getElementById('starItems').textContent = quadrantCounts.star;
+    document.getElementById('puzzleItems').textContent = quadrantCounts.puzzle;
+    document.getElementById('dogItems').textContent = quadrantCounts.dog;
+    document.getElementById('workhorseItems').textContent = quadrantCounts.workhorse;
+    document.getElementById('totalItems').textContent = data.length;
+    document.getElementById('totalSales').textContent = data.reduce((acc, item) => acc + item.net_sales, 0).toFixed(2);
+    
+
     const menuTableBody = document.getElementById('menuTableBody');
-    Object.entries(quadrantCounts).forEach(([quadrant, count]) => {
+    data.forEach(item => {
         const row = document.createElement('tr');
-        row.innerHTML = `<td>${quadrant}</td><td>${count}</td>`;
+        row.innerHTML = `
+            <td class="border p-2">${item.item_name}</td>
+            <td class="border p-2">$${item.avg_price.toFixed(2)}</td>
+            <td class="border p-2">${item.qty_sold}</td>
+            <td class="border p-2">${item.quadrant}</td>
+        `;
         menuTableBody.appendChild(row);
     });
 
