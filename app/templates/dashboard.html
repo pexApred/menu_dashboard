@@ -11,7 +11,7 @@
 
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto p-6">
-        <h1 class="text-3xl font-bold mb-6">Menu Performance Dashboard: Price-Quantity Relationship Chart</h1>
+        <h1 class="text-3xl font-bold mb-6">Menu Performance Dashboard</h1>
 
         <!-- Summary Section -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
@@ -31,7 +31,19 @@
 
         <!-- Chart Section -->
         <div class="bg-white p-6 rounded shadow mb-8">
+            <h2>Price-Quantity Relationship Chart</h2>
             <canvas id="menuChart" width="800" height="400"></canvas>
+
+            <!-- Legend -->
+            <div id="legend" style="margin-top: 20px;">
+                <strong>Quadrant Legend:</strong>
+                <ul>
+                    <li style="color: rgba(75, 192, 192, 0.8);">⭐ Star</li>
+                    <li style="color: rgba(255, 206, 86, 0.8);">🐴 Workhorse</li>
+                    <li style="color: rgba(153, 102, 255, 0.8);">🧩 Puzzle</li>
+                    <li style="color: rgba(255, 99, 132, 0.8);">🐶 Dog</li>
+                </ul>
+            </div>
         </div>
 
         <!-- Table Section -->
