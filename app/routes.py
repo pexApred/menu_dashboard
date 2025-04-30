@@ -29,11 +29,11 @@ def menu_performance():
     )
 
     def classify_quadrant(qty_sold, avg_price):
-        if qty_sold >= 100 and avg_price >= 10:
+        if qty_sold >= 50 and avg_price >= 10:
             return "Star"
-        elif qty_sold >= 100 and avg_price < 10:
+        elif qty_sold >= 50 and avg_price < 10:
             return "Workhorse"
-        elif qty_sold < 100 and avg_price >= 10:
+        elif qty_sold < 50 and avg_price >= 10:
             return "Puzzle"
         else:
             return "Dog"

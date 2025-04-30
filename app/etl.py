@@ -69,7 +69,12 @@ def load_data_to_db(df):
     print("Loading data into the database...")
     start_time = time.time()
 
+    required_fields = ['menu_category', 'menu_group', 'menu_item']
+
     for _, row in tqdm(df.iterrows(), total=len(df), desc="Inserting rows", unit="row"):
+        if any(pd.isna(row[field]) for field in required_fields):
+            print(f"Skipping row due to NaN in required fields: {row}")
+            continue
         try:
             # Find or create Menu
             menu = Menu.query.filter_by(name=row['menu_category']).first()
