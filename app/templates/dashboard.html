@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Performance Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold mb-6">Menu Performance Dashboard</h1>
+
+        <!-- Summary Section -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white p-4 rounded shadow">Stars(Top Right - High Quantity Sold/High Price): <span
+                    id="starItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Puzzles(Top Left - Low Quantity Sold/High Price): <span
+                    id="puzzleItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Dogs(Bottom Left - Low Quantity Sold/Low Price): <span
+                    id="dogItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Workhorses(Bottom Right - High Quantity Sold/Low Price): <span
+                    id="workhorseItems">--</span></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-4 mb-8">
+            <div class="bg-white p-4 rounded shadow">Total Items: <span id="totalItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Total Sales: $<span id="totalSales">--</span></div>
+        </div>
+
+        <!-- Chart Section -->
+        <div class="bg-white p-6 rounded shadow mb-8">
+            <h2>Price-Quantity Relationship Chart</h2>
+            <canvas id="menuChart" width="800" height="400"></canvas>
+
+            <!-- Legend -->
+            <div id="legend" style="margin-top: 20px;">
+                <strong>Quadrant Legend:</strong>
+                <ul>
+                    <li style="color: rgba(75, 192, 192, 0.8);">⭐ Star</li>
+                    <li style="color: rgba(255, 206, 86, 0.8);">🐴 Workhorse</li>
+                    <li style="color: rgba(153, 102, 255, 0.8);">🧩 Puzzle</li>
+                    <li style="color: rgba(255, 99, 132, 0.8);">🐶 Dog</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Table Section -->
+        <div class="bg-white p-4 rounded shadow">
+            <h2 class="text-xl font-semibold mb-2">Menu Items</h2>
+            <table class="min-w-full table-auto border-collapse border border-gray-300">
+                <thead class="bg-gray-200">
+                    <tr>
+                        <th class="border p-2">Group</th>
+                        <th class="border p-2">Item</th>
+                        <th class="border p-2">Price</th>
+                        <th class="border p-2">Qty Sold</th>
+                        <th class="border p-2">Quadrant</th>
+                    </tr>
+                </thead>
+                <tbody id="menuTableBody">
+                    <!-- Populated via JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/chart.js') }}"></script>
+</body>
+
+</html>
