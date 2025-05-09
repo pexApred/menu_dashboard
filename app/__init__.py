@@ -4,7 +4,7 @@ from flask.cli import with_appcontext
 from flask_migrate import Migrate
 from flask_cors import CORS
 import click
-from .models import db    
+from .models import db, Menu, MenuGroup, MenuItem, MenuItemPerformance    
 from .routes import main
 from .etl import load_menu_data, performance_metrics, enrich_data, load_data_to_db
 
@@ -28,9 +28,20 @@ def create_app():
 
 @click.command('etl')
 @click.option('--file', default=None, help='Path to the menu data file.')
+@click.option('--reset', is_flag=True, help='Reset the database before loading data.')
 @with_appcontext
-def run_etl(file):
-    """Run the ETL process."""
+def run_etl(file, reset):
+    """Run the ETL process with optional data reset."""
+
+    if reset:
+        click.secho("⚠️  Resetting existing data...", fg='yellow')
+        MenuItemPerformance.query.delete()
+        MenuItem.query.delete()
+        MenuGroup.query.delete()
+        Menu.query.delete()
+        db.session.commit()
+        click.secho("✅ Existing data cleared.", fg='green')
+
     df = load_menu_data(file_path=file)
     df = performance_metrics(df)
     df = enrich_data(df)
@@ -50,3 +61,7 @@ def register_commands(app):
 
 # Or with short -f:
 # flask etl -f data/april2025_Menu_Sales.csv
+
+# Or reset the database before loading:
+# flask etl --reset
+# flask etl -f data/april2025_Menu_Sales.csv --reset
