@@ -82,9 +82,9 @@ def clean_menu_dataframe(df):
     menu_group_clean = df['menu_group'].astype(str).str.strip().str.lower()
 
     # Filter out "Open items" under "Open food"
-    df = df[~(
-        menu_category_clean.eq('open items') &
-        menu_group_clean.eq('open food')
-    )]
+    # df = df[~(
+    #     menu_category_clean.eq('open items') &
+    #     menu_group_clean.eq('open food')
+    # )]
 
     return df
