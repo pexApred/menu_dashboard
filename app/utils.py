@@ -66,7 +66,7 @@ def clean_menu_dataframe(df):
         'Menu': 'menu_category',
         'Menu group': 'menu_group',
         'Item, open item': 'menu_item',
-        'Sales category': 'sales_category',
+        'Sales Category': 'sales_category',
         'Qty sold': 'qty_sold',
         'Avg. price': 'avg_price',
         'Avg. item price (not incl. mods)': 'base_price',
