@@ -11,8 +11,13 @@
 
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto p-6">
-        <h1 class="text-3xl font-bold mb-6">Menu Performance Dashboard</h1>
-
+        <h1 class="text-3xl font-bold mb-6 underline">Menu Performance Dashboard</h1>
+        <!-- File Upload -->
+        <form action="{{ url_for('main.upload_file') }}" method="post" enctype="multipart/form-data" class="mb-4 p-4 rounded shadow">
+            <label for="file">Upload File:</label>
+            <input type="file" name="file" id="file" accept=".csv" required>
+            <button type="submit" class="">Upload</button>
+        </form>
         <!-- Summary Section -->
         <div class="grid grid-cols-2 md:grid-cols-2 gap-2 mb-4">
             <div class="bg-white p-4 rounded shadow">Total Items: <span id="totalItems">--</span></div>
