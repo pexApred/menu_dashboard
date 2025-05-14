@@ -7,6 +7,13 @@ import time
 from .models import db, Menu, MenuGroup, MenuItem, MenuItemPerformance
 from .utils import performance_metrics, clean_menu_dataframe, assign_quadrant
 
+def clear_existing_data():
+    db.session.query(MenuItemPerformance).delete()
+    db.session.query(MenuItem).delete()
+    db.session.query(MenuGroup).delete()
+    db.session.query(Menu).delete()
+    db.session.commit()
+
 def load_menu_data(file_path=None):
     # Load the CSV file from the specified path or use the default path
     if file_path is not None:
@@ -95,6 +102,8 @@ def load_data_to_db(df):
                 performance = MenuItemPerformance(item=item)
                 db.session.add(performance)
 
+            # Update Performance Data - 
+            # Modulize this to a function in utils
             performance.qty_sold = row.get('qty_sold')
             performance.avg_price = row.get('avg_price')
             performance.base_price = row.get('base_price')

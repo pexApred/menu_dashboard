@@ -11,26 +11,46 @@
 
 <body class="bg-gray-100 text-gray-900">
     <div class="container mx-auto p-6">
-        <h1 class="text-3xl font-bold mb-6">Menu Performance Dashboard</h1>
-
+        <h1 class="text-3xl font-bold mb-6 underline">Menu Performance Dashboard</h1>
+        <!-- File Upload -->
+        <form action="{{ url_for('main.upload_file') }}" method="post" enctype="multipart/form-data" class="mb-4 p-4 rounded shadow">
+            <label for="file">Upload File:</label>
+            <input type="file" name="file" id="file" accept=".csv" required>
+            <button type="submit" class="">Upload</button>
+        </form>
         <!-- Summary Section -->
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-            <div class="bg-white p-4 rounded shadow">Stars(Top Right - High Quantity Sold/High Price): <span
-                    id="starItems">--</span></div>
-            <div class="bg-white p-4 rounded shadow">Puzzles(Top Left - Low Quantity Sold/High Price): <span
-                    id="puzzleItems">--</span></div>
-            <div class="bg-white p-4 rounded shadow">Dogs(Bottom Left - Low Quantity Sold/Low Price): <span
-                    id="dogItems">--</span></div>
-            <div class="bg-white p-4 rounded shadow">Workhorses(Bottom Right - High Quantity Sold/Low Price): <span
-                    id="workhorseItems">--</span></div>
-        </div>
-        <div class="grid grid-cols-2 md:grid-cols-2 gap-4 mb-8">
+        <div class="grid grid-cols-2 md:grid-cols-2 gap-2 mb-4">
             <div class="bg-white p-4 rounded shadow">Total Items: <span id="totalItems">--</span></div>
             <div class="bg-white p-4 rounded shadow">Total Sales: $<span id="totalSales">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Average Quantity Sold: <span id="averageQtySales">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Average Price: $<span id="averagePrice">--</span></div>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-4">
+            <div class="bg-white p-4 rounded shadow">Stars: <span id="starItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Puzzles: <span id="puzzleItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Dogs: <span id="dogItems">--</span></div>
+            <div class="bg-white p-4 rounded shadow">Workhorses: <span id="workhorseItems">--</span></div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="mb-4">
+            <label for="groupFilter" class="block text-sm font-bold mb-1">Filter by Category:</label>
+            <div class="flex gap-2 mb-4">
+                <button id="selectAllBtn" type="button" class="px-3 py-1 bg-green-500 text-white rounded">Select
+                    All</button>
+                <button id="clearAllBtn" type="button" class="px-3 py-1 bg-red-500 text-white rounded">Clear
+                    All</button>
+            </div>
+            <select id="groupFilter" multiple class="border rounded p-2 w-full"></select>
+
+            <label class="inline-flex items-center mt-2">
+                <input type="checkbox" id="includeOpenCheckbox" class="mr-2" checked>
+                Include Open Items
+            </label>
         </div>
 
         <!-- Chart Section -->
-        <div class="bg-white p-6 rounded shadow mb-8">
+        <div class="bg-white p-2 rounded shadow mb-8">
             <h2>Price-Quantity Relationship Chart</h2>
             <canvas id="menuChart" width="800" height="400"></canvas>
 

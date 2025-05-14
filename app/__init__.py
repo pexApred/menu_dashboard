@@ -3,6 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask.cli import with_appcontext
 from flask_migrate import Migrate
 from flask_cors import CORS
+from sqlalchemy import text
 import click
 from .models import db, Menu, MenuGroup, MenuItem, MenuItemPerformance    
 from .routes import main
@@ -35,17 +36,22 @@ def run_etl(file, reset):
 
     if reset:
         click.secho("⚠️  Resetting existing data...", fg='yellow')
-        MenuItemPerformance.query.delete()
-        MenuItem.query.delete()
-        MenuGroup.query.delete()
-        Menu.query.delete()
+        db.session.execute(text(
+        "TRUNCATE menu_item_performance, menu_items, menu_groups, menus RESTART IDENTITY CASCADE;"
+        ))
+        # MenuItemPerformance.query.delete()
+        # MenuItem.query.delete()
+        # MenuGroup.query.delete()
+        # Menu.query.delete()
         db.session.commit()
+
         click.secho("✅ Existing data cleared.", fg='green')
 
     df = load_menu_data(file_path=file)
     df = performance_metrics(df)
     df = enrich_data(df)
     load_data_to_db(df)
+
     click.echo("ETL process completed successfully.")
 
 def register_commands(app):
